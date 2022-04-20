@@ -2,13 +2,17 @@
     --color1: rgb(86, 100, 251);
 }
 *{
-    
     margin: 0;
-    padding : 0;
-    
+    padding : 0;  
+}
+html{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
 }
 body{
-    color:white ;
+    color: white ;
     background-color : rgb(60, 59, 59);
     font-family: 'Inter', sans-serif;
     overflow:visible;
@@ -95,8 +99,8 @@ main{
 }
 
 main img{
-    width: 30%;
-    height: 50%;
+    width: 700px;
+    height: 575px;
     margin: 20px;
 }
 
@@ -121,6 +125,10 @@ main p{
 footer {
     display: flex;
     flex-direction: row;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    position: absolute;
     border-radius: 20px;
     justify-content: space-around;
     background: rgba(0, 0, 0, 0.505);
@@ -214,7 +222,11 @@ footer {
         font-size: 12px;
         margin: 10px;
     }
-
+      main img{
+        width: 600px;
+        height: 475px;
+        margin: 20px;
+    }
     .Core {
         display:flex ;
         flex-direction: column;
@@ -235,6 +247,11 @@ footer {
     main{
         display: flex;
         flex-direction: column;
+    }
+   main img{
+        width: 500px;
+        height: 375px;
+        margin: 20px;
     }
     h2, h3, main p{
        text-align: center;
@@ -265,6 +282,11 @@ footer {
     nav li{
         padding : 8px 10px;
         font-size:15px;
+    }
+      main img{
+        width: 400px;
+        height: 275px;
+        margin: 20px;
     }
     .Core{
         font-size: 10px;
